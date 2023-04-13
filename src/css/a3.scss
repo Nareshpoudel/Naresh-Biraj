@@ -1,0 +1,45 @@
+$bg-color:red;
+$text-color:white;
+$yellcol: yellow;
+
+button {
+  text-transform: lowercase;
+  position: relative;
+  background-color:$bg-color;
+  color:$text-color;
+  &:after {
+    content: "";
+    position: absolute;
+    height:fit-content;
+     
+  }
+  &:hover {
+    text-transform:uppercase;
+  }
+}
+nav.ul{
+
+  a{
+  
+  color : $yellcol;
+  
+  transition: 1ms ;
+  
+  &:hover{
+  
+  color: $text-color;
+  
+  }
+  
+  }
+  
+  }
+
+  .main-container{
+
+   border: 4px dashed white;
+    
+  }
+
+
+

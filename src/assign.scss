@@ -1,0 +1,21 @@
+$bgcolor: red;
+$text-color:blue;
+
+// Select all buttons on the page
+button{
+  // Set the text to uppercase
+  text-transform: uppercase;
+  background-color:$bgcolor;
+  color:$text-color;
+
+  // Add the "::after" pseudo-element to each button
+  &::capitalize:after{
+    // Set the content to "AFTER"
+    content: "AFTER";
+
+    // Set the display to inline-block to allow for sizing and positioning
+    display: inline-block;
+    // Set a margin to separate the "AFTER" text from the button text
+    margin-left: 5px;
+}
+}

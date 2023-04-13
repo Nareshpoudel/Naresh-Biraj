@@ -1,0 +1,27 @@
+button {
+  text-transform: lowercase;
+  position: relative;
+  background-color: red;
+  color: white;
+}
+button:after {
+  content: "";
+  position: absolute;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+button:hover {
+  text-transform: uppercase;
+}
+
+nav.ul a {
+  color: yellow;
+  transition: 1ms;
+}
+nav.ul a:hover {
+  color: white;
+}
+
+.main-container {
+  border: 4px dashed white;
+}/*# sourceMappingURL=a3.css.map */

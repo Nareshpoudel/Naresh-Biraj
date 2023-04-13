@@ -1,0 +1,10 @@
+button {
+  text-transform: uppercase;
+  background-color: red;
+  color: blue;
+}
+button::capitalize:after {
+  content: "AFTER";
+  display: inline-block;
+  margin-left: 5px;
+}/*# sourceMappingURL=assign.css.map */

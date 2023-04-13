@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/a2.css">
+    <link rel="stylesheet" href="css/a3.css">
+
+</head>
+<body>
+    
+    <div class="wrapper" >
+        <div class="main-container">
+            <form id="contact-us" action="https://formspree.io/f/mwkjweqk" method="post">
+                <h1>Contact Us</h1>
+                <div class="input-container">
+                <!-- <div class="display-left"> -->
+                    <input type="text" id="firstname" name="finame" placeholder="First Name" onchange="validate5(this)" required><br>
+                    <input type="text" id="lastname" name="laname" placeholder="Last Name" onchange="lvalidate5(this)" required><br>
+                <!-- </div> -->
+                <!-- <div class="display-right"> -->
+                    <input type="Phone" id="phone" name="phon" placeholder="Phone" onchange="phnvalidate(this)" required ><br>
+                    <input type="Email" id="email" name="emal" placeholder="Email" required ><br>
+                    <input type="date" id="date" name="dte" placeholder="dd/mm/yy" required >
+                </div>
+    
+                <!-- </div> -->
+                <!-- <h2>Type your message here : </h2> -->
+                <textarea id="message" name="messeg" placeholder="Type your message.." onchange="mvalidate(this)" required></textarea>
+                <button type="submit" id="button">Send</button>          
+            </form>
+            </div>
+            <footer>
+                <h2>Mohawk College</h2>
+                <h2>100 City Centre Dr, Mississauga, ON L5B 2C9</h2>
+                <h2>(647) 945-7311</h2>
+                <img src="img/ig.png"   id="ig"> 
+                <img src="img/fb.png"   id="fb">   
+                <img src="img/tw.png"   id="tw">   
+            </footer>
+    </div>
+    
+    
+
+    <script src="a2.js"></script>
+</body>
+</html>
